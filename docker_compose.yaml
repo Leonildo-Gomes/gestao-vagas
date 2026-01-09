@@ -1,0 +1,15 @@
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: gestao_cursos_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: gestao_cursos_db
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:
