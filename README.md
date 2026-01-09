@@ -8,7 +8,7 @@ API REST para gerenciamento de cursos de programação, desenvolvida com foco em
 ## 🚀 Tecnologias
 
 * **Java 21**: Versão LTS mais recente.
-* **Spring Boot 3.4.1**: Framework base.
+* **Spring Boot 4.0.1**: Framework base.
 * **Spring Data JPA**: Persistência de dados.
 * **PostgreSQL**: Banco de dados relacional.
 * **Lombok**: Redução de boilerplate code.
